@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;1,200&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    position: relative;
+    width: 800px;
+    height: 550px;
+    border-radius: 8px;
+    background-color: white;
+}
+.box1{
+    position: absolute;
+    top: 18px;
+    width: 100%;
+    height: 50%;
+    margin: 0px 50px;
+    padding: 0px;
+}
+.box1 h1{
+    color: hsl(179, 62%, 43%);
+}
+.box1 h3{
+    color: hsl(71, 73%, 54%);
+}
+.box1 p{
+    color: rgb(151, 151, 151);
+}
+.box2{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50%;
+    background-color: aquamarine;
+}
+.demoone{
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(179, 62%, 43%);
+}
+.demoone h3{
+    padding: 0px;
+    font-size: 20px;
+    margin: 50px 0px 0px 50px;
+    color: white;
+}
+#signup{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    border-radius: 6px;
+    font: bold; 
+    font-size: 18px;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 2px 6px 20px black;
+    cursor: pointer;
+}
+#doller{
+    position: absolute;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}   
+#number{
+    font-size: 30px;
+    margin-right: 10px;
+} 
+.list{
+    position: absolute;
+    left: 50px;
+    top: 125px;
+    color: white;
+}
+.demotwo{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;   
+    background-color: hsla(179, 89%, 44%, 0.863);
+}
+#whyus{
+    padding: 0px;
+    font-size: 20px;
+    margin: 50px 0px 0px 50px;
+    color: white;
+}
+#whydata{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 26px 50px 0px 50px;
+    color: white;
+}
+
+
+
+
+
+   
